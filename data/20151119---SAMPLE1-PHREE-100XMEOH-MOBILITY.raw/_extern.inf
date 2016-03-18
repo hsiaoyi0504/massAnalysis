@@ -1,0 +1,189 @@
+Parameters for C:\MassLynx\BlueWater\tuneexp.exp
+Created by Masslynx v4.1
+ 
+ 
+Temperature Correction:
+Temperature Correction				Disabled
+ 
+Instrument Configuration:
+Lteff						1800.0
+Veff						7235.50
+Resolution					10000
+Min Points in Peak				2
+Acquisition Device				WatersADC
+ADC Trigger Threshold (V)			1.50
+ADC Input Offset (V)				-1.66
+Average Single Ion Intensity			15
+ADC Amplitude Threshold				2
+ADC Centroid Threshold				-1
+ADC Ion Area Threshold				4
+ADC Ion Area Offset				0
+ADC Pushes Per IMS Increment			1
+EDC Delay Coefficient				1.5800
+EDC Delay Offset				-2.2000
+Tof Emulation Transfer Pulse Height (V)		0.1
+ 
+Experimental Instrument Parameters
+Instrument Parameter Filename			C:\MassLynx\YTC lab.PRO\ACQUDB\KP_20140929.ipr (MODIFIED)
+Polarity					ES+
+Analyser					Sensitivity Mode
+Capillary (kV)					3.0000
+Source Temperature (¢XC)			100
+Sampling Cone					40.0000
+Extraction Cone					2.7000
+Source Gas Flow (mL/min)			0.00
+Desolvation Temperature (¢XC)			300
+Cone Gas Flow (L/Hr)				10.0
+Desolvation Gas Flow (L/Hr)			800.0
+LM Resolution					4.7
+HM Resolution					15.0
+Aperture 1					1.0
+Pre-filter					2.0
+Ion Energy					1.0
+Manual Trap Collision Energy			FALSE
+Trap Collision Energy				4.0
+Manual Transfer Collision Energy		FALSE
+Transfer Collision Energy			0.0
+Manual Gas Control				FALSE
+Trap Gas Flow (mL/min)				2.00
+HeliumCellGasFlow				180.00
+IMS Gas Flow (mL/min)				90.00
+Detector					3150
+DetectorCache					2300
+Sample Infusion Flow Rate (£gL/min)		50
+Sample Flow State				Infusion
+Sample Fill Volume (£gL)			250
+Sample Reservoir				C
+LockSpray Infusion Flow Rate (£gL/min)		100
+LockSpray Flow State				Infusion
+LockSpray Reservoir				A
+LockSpray Capillary (kV)			2.80
+Use Manual LockSpray Collision Energy		FALSE
+Collision Energy				4.0
+Acceleration1					70.0
+Acceleration2					100.0
+Aperture2					40.0
+Transport1					70.0
+Transport2					70.0
+Steering					0.2
+Tube Lens					70
+Pusher						1900.0
+Pusher Offset					-0.33
+Puller						1500.0
+Collector					50
+Collector Pulse					10.0
+Stopper						10
+Stopper Pulse					20.0
+Entrance					62
+Static Offset					120
+Puller Offset					0.00
+Reflectron Grid (kV)				1.506
+Flight Tube (kV)				10.00
+Reflectron (kV)					3.780
+Use Manual Trap DC				FALSE
+Trap DC Entrance				0.0
+Trap DC Bias					45.0
+Trap DC						-2.0
+Trap DC Exit					3.0
+Use Manual IMS DC				FALSE
+IMS DC Entrance					25.0
+Helium Cell DC					35.0
+Helium Exit					-5.0
+IMSBias						3.0
+IMS DC Exit					0.0
+USe Manual Transfer DC				FALSE
+Transfer DC Entrance				4.0
+Transfer DC Exit				5.0
+Source Manual Control				OFF
+Source Wave Velocity (m/s)			200
+Source Wave Height (V)				0.2
+Trap Manual Control				OFF
+Trap Wave Velocity (m/s)			311
+Trap Wave Height (V)				6.0
+IMS Manual Control				ON
+IMS Wave Velocity (m/s)				683
+IMS Wave Height (V)				26.3
+Transfer Manual Control				OFF
+Transfer Wave Velocity (m/s)			191
+Transfer Wave Height (V)			0.1
+Target Enhancement Enabled			FALSE
+Target Enhancement Mode				EDC
+Target Enhancement Mass				556.0
+Target Enhancement Trap Height (V)		20.0
+Target Enhancement Extract Height (V)		15.0
+Mobility Trapping Manual Release Enabled	FALSE
+Mobility Trapping Release Time (£gs)		200
+Mobility Trap Height (V)			15.0
+Mobility Extract Height (V)			0.0
+Trag Gate LUT table enabled			FALSE
+TriWave Trap Gate LookUp Table			
+Using Drift Time Trimming			FALSE
+Drift Time Bins					0
+Using Mobility Delay after Trap Release		TRUE
+IMS Wave Delay (£gs)				450
+Variable Wave Height Enabled			FALSE
+Wave Height Ramp Type				Linear
+Wave Height Start (V)				8.0
+Wave Height End (V)				20.0
+Wave Height Using Full IMS			TRUE
+Wave Height Ramp (%)				100.0
+Wave Height Look Up Table			
+Variable Wave Velocity Enabled			FALSE
+Wave Velocity Ramp Type				Linear
+Wave Velocity Start (m/s)			300.0
+Wave Velocity End (m/s)				600.0
+Wave Velocity Using Full IMS			TRUE
+Wave Velocity Ramp (%)				100.0
+Wave Velocity Look Up Table			
+Backing						2.27e0
+Source						1.00e-3
+Sample Plate					1.00e-6
+Trap						2.88e-2
+Helium Cell					1.40e3
+IMS						3.17e0
+Transfer					1.00e-6
+TOF						2.20e-6
+SourceRFOffset					350
+IMSRFOffset					350
+IMSMobilityRFOffset				250
+TrapRFOffset					350
+TransferRFOffset				380
+MS Profile Type					Auto P
+MSProfileMass1					100
+MSProfileDwellTime1				20
+MSProfileRampTime1				20
+MSProfileMass2					300
+MSProfileDwellTime2				20
+MSProfileRampTime2				40
+MSProfileMass3					500
+LockMassValidSigma				5
+ 
+Acquisition mass range
+Start mass					50.000
+End mass					1000.000
+Calibration mass range
+Start mass					90.901
+End mass					1178.867
+ 
+Experiment Reference Compound Name: N/A
+ 
+Function Parameters - Function 1 - TOF MS FUNCTION
+Scan Time (sec)					1.000
+Interscan Time (sec)				0.024
+Start Mass					50.0
+End Mass					1000.0
+Start Time (mins)				0.00
+End Time (mins)					2.00
+Data Format					Continuum
+ADC Sample Frequency (GHz)			3.0
+Use Tune Page Cone Voltage			YES
+Using Auto Trap Collision Energy (eV)		4.000000
+Use Auto Transfer Collision Energy		NO
+Transfer Collision Energy 1 (eV)		30.0
+Sensitivity					Normal
+Dynamic Range					Normal
+Save Collapsed Retention Time Data		Yes
+Use Rule File Filtering				No
+FragmentationMode				CID
+Calibration					Dynamic 2
+ 
