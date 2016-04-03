@@ -23,5 +23,5 @@ for(i in c(1:length(spectra))){
 }
 setwd("../PCA")
 write.table(name, file="name.txt")
-write.csv2(featureMatrix, file="feature.csv")
+write.csv(featureMatrix, file="feature.csv")
 
